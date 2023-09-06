@@ -64,22 +64,10 @@ export function Hero() {
       </div>
       <div className="right-hero">
         <button className="btn">Join Now</button>
-
         <div className="heart-rate">
           <img src={Heart} alt="" />
           <span>Heart Rate</span>
           <span>166bpm</span>
-        </div>
-
-        <img src={hero_image} alt="" className="hero-image" />
-        <img src={hero_image_back} alt="" className="hero-image-back" />
-
-        <div className="calories">
-          <img src={Calories} alt="" />
-          <div>
-            <span>Calories Burned</span>
-            <span>220 kcal</span>
-          </div>
         </div>
       </div>
     </div>

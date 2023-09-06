@@ -1,0 +1,43 @@
+.programs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.programs-header {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.program-categories {
+  display: flex;
+  gap: 1rem;
+  padding: 0 2.5rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 2rem;
+  gap: 1rem;
+  color: white;
+  justify-content: space-between;
+}
+
+.category:hover {
+  background: var(--planCard);
+  cursor: pointer;
+}
+
+.category > :nth-child(1) {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}

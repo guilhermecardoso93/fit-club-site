@@ -71,16 +71,8 @@ export function Hero() {
           <span>166bpm</span>
         </div>
 
-        <img src={hero_image} alt="" className="hero-image" />
-        <img src={hero_image_back} alt="" className="hero-image-back" />
-
-        <div className="calories">
-          <img src={Calories} alt="" />
-          <div>
-            <span>Calories Burned</span>
-            <span>220 kcal</span>
-          </div>
-        </div>
+        <img src={hero_image} alt='' className='hero-image'/>
+        <img src={hero_image_back} alt='' className='hero-image-back'/>
       </div>
     </div>
   );
