@@ -1,0 +1,16 @@
+.reasons {
+  padding: 0 2rem;
+  display: flex;
+  grid-tempalte: 2rem;
+}
+
+.left-reasons {
+  flex: 1 1;
+  display: grid;
+  grid-tempalte-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+}
+
+.right-reasons {
+  flex: 1 1;
+}

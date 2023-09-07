@@ -1,10 +1,9 @@
 import './App.css';
-
+import { Testimonials } from './Testimonials';
 import { Hero } from './components/Hero';
 import { Plans } from './components/Plans';
 import { Programs } from './components/Programs';
 import { Reasons } from './components/Reasons';
-import { Testimonials } from './components/Testimonials';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <Programs />
       <Reasons />
       <Plans />
-      <Testimonials />
+      <Testimonials /.
     </div>
   );
 }

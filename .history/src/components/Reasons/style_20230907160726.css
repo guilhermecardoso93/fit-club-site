@@ -1,0 +1,25 @@
+.reasons {
+  padding: 0 2rem;
+  display: flex;
+  grid-tempalte: 2rem;
+}
+
+.left-reasons {
+  flex: 1 1;
+  display: grid;
+  grid-tempalte-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+}
+
+.left-reasons img{
+  object-fit: cover;
+}
+
+.left-reasons >:nth-child(1) {
+  width: 12rem;
+  grid-row: 1/3;
+}
+
+.right-reasons {
+  flex: 1 1;
+}

@@ -1,0 +1,9 @@
+.reasons {
+  padding: 0 2rem;
+  display: flex;
+  grid-tempalte: 2rem;
+}
+
+.left-reasons {
+  flex: 1 1;
+}

@@ -1,0 +1,14 @@
+.testimonials{
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.left-testimonials {
+  display: flex;
+  flex: 1 1;
+  gap: 2rem;
+  flex-direction: column;
+  color: white;
+  text-transform: uppercase;
+}

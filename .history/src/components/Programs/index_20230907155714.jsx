@@ -1,8 +1,8 @@
 import { programsData } from "../../data/programsData";
 import RightArrow from "../../assets/rightArrow.png";
 
-import "./style.css";
 
+import "./style.css";
 export function Programs() {
   return (
     <div className="programs" id="programs">
