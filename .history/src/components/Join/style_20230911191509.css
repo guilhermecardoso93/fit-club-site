@@ -1,0 +1,21 @@
+.join {
+  display: flex;
+  padding: 0 2rem;
+  gap: 10rem;
+}
+
+.left-join {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.left-join > hr {
+  postion: absolute;
+  width: 10.5rem;
+  border: 2px solir var(--orange);
+  border-radius: 20%;
+  margin: -10px 0;
+}

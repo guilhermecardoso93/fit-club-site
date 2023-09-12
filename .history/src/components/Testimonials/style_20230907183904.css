@@ -1,0 +1,32 @@
+.testimonials {
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.left-testimonials {
+  display: flex;
+  flex: 1 1;
+  gap: 2rem;
+  flex-direction: column;
+  color: white;
+  text-transform: uppercase;
+}
+
+.left-testimonials-title {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.left-testimonials > :nth-child(2),
+.left-testimonials > :nth-child(3) {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.left-testimonials > :nth-child(4) {
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
